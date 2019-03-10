@@ -73,7 +73,7 @@ defmodule BtcTool do
   @typedoc """
   All valid types of bitcoin addresses.
   """
-  @type address_type :: :p2pkh
+  @type address_type :12ib7dApVFvg82TXKycWBNpN8kFyiAN1dr: :p2pkh
 
   @doc """
   Create Wallet Import Format (WIF) private key from raw private key.
